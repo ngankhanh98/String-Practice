@@ -20,4 +20,4 @@ Lab 3. C4W class
 **Slide Data Passing Between Screen,** _Mr. Duy Quang (Teacher)_
 
 ## About Me
-1612291 - Nguyen Thi Ngan Khanh 
+Nguyen Thi Ngan Khanh 
