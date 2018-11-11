@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:String_Practice"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="700">
-    <Grid>
-        
-    </Grid>
+        Title="String Practice" Height="325.5" Width="640" ResizeMode="NoResize">
+    <Canvas>
+        <TextBox Name="txtInput" Height="56" Canvas.Left="79" TextWrapping="Wrap" Text="TextBox" Canvas.Top="66" Width="483" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Button Name="btnStats" Content="Statistics" Canvas.Left="128" Canvas.Top="206" Width="74" Padding="2" Click="btnStats_Click"/>
+        <Button Name="btnNor" Content="Normalize" Canvas.Left="284" Canvas.Top="206" Width="76" Margin="0" Padding="2" Click="btnNor_Click"/>
+        <Button Name="btnFPInfo" Content="Path Info" Canvas.Left="437" Canvas.Top="206" Width="76" Padding="2" Click="btnFPInfo_Click"/>
+    </Canvas>
 </Window>
