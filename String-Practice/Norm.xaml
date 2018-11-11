@@ -5,9 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:String_Practice"
         mc:Ignorable="d"
-        Title="Norm" Height="450" Width="800">
+        Title="Norm" Height="271.5" Width="640" ResizeMode="NoResize">
     <Grid>
-        <Label Name="lblNorm" Content="Label" HorizontalAlignment="Left" Margin="106,76,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.515,-1.676" Height="227" Width="542"/>
-
+        <TextBox Name="txtNorm" HorizontalAlignment="Center" Height="143" Margin="0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="505" FontFamily="Arial" FontSize="20" BorderBrush="#FF909CBF" Padding="4"/>
     </Grid>
 </Window>

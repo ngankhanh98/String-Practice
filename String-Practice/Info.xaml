@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:String_Practice"
         mc:Ignorable="d"
-        Title="Info" Height="450" Width="800">
+        Title="Info" Height="244.5" Width="517" ResizeMode="NoResize">
     <Grid>
-        <Label Name="lblInfo" Content="Label" HorizontalAlignment="Left" Margin="128,93,0,0" VerticalAlignment="Top" Height="178" Width="451"/>
+        <Label Name="lblInfo" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Height="152" Width="421" Background="{x:Null}" Canvas.Left="43" Canvas.Top="30" Margin="42,28,48,35" FontFamily="Arial" FontSize="18" />
 
     </Grid>
 </Window>

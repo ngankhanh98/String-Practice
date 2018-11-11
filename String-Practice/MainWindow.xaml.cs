@@ -28,6 +28,9 @@ namespace String_Practice
         private void btnStats_Click(object sender, RoutedEventArgs e)
         {
             string stack = txtInput.Text;
+            if (stack == "")
+                return;
+
             const string Space = " ";
             var tokens = stack.Split(new string[] { Space }, StringSplitOptions.None).Select(token => token.Trim().ToLower());
 
@@ -52,6 +55,8 @@ namespace String_Practice
         private void btnNor_Click(object sender, RoutedEventArgs e)
         {
             var fullname = txtInput.Text;
+            if (fullname == "")
+                return;
             const string Space = " ";
             var tokens = fullname.Split(new string[] { Space },
                 StringSplitOptions.RemoveEmptyEntries)
@@ -81,6 +86,8 @@ namespace String_Practice
         private void btnFPInfo_Click(object sender, RoutedEventArgs e)
         {
             var path = txtInput.Text;
+            if (path == "" || !path.Contains(@"\"))
+                return;
             const string BackSlash = @"\";
             const string Dot = ".";
             var foundPos = path.LastIndexOf(BackSlash);

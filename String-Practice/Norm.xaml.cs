@@ -22,7 +22,7 @@ namespace String_Practice
         public Norm(string data)
         {
             InitializeComponent();
-            lblNorm.Content = data;
+            txtNorm.Text = data;
         }
     }
 }

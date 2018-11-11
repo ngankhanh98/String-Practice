@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:String_Practice"
         mc:Ignorable="d"
-        Title="Stats" Height="325.5" Width="640" ResizeMode="NoResize">
+        Title="Stats" Height="342" Width="508" ResizeMode="NoResize">
     <Grid>
-        <Label Name="lblStats" Content="Label" HorizontalAlignment="Center" VerticalAlignment="Center" Height="239" Width="551" Padding="7,5,5,5"/>
+        <TextBox Name="txtStats" HorizontalAlignment="Center" Height="278" Margin="0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="360" Padding="4" BorderBrush="#FF3E424D" FontFamily="Arial" FontSize="15"/>
     </Grid>
 </Window>

@@ -22,14 +22,16 @@ namespace String_Practice
         public Stats(Dictionary<string, int>dic)
         {
             InitializeComponent();
-            string output = "";
+            string stats = "";
 
             foreach(var entry in dic)
             {
-                output += ((entry.Key) + " : " + entry.Value.ToString() + "\n");
+                stats += (entry.Key + " : ");
+                stats += (entry.Value.ToString() + "\n");
             }
-
-            lblStats.Content = output;
+            txtStats.Text = stats;
         }
+
+        
     }
 }

@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:String_Practice"
         mc:Ignorable="d"
-        Title="String Practice" Height="325.5" Width="640" ResizeMode="NoResize">
+        Title="String Practice" Height="271.5" Width="640" ResizeMode="NoResize">
     <Canvas>
-        <TextBox Name="txtInput" Height="56" Canvas.Left="79" TextWrapping="Wrap" Text="TextBox" Canvas.Top="66" Width="483" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-        <Button Name="btnStats" Content="Statistics" Canvas.Left="128" Canvas.Top="206" Width="74" Padding="2" Click="btnStats_Click"/>
-        <Button Name="btnNor" Content="Normalize" Canvas.Left="284" Canvas.Top="206" Width="76" Margin="0" Padding="2" Click="btnNor_Click"/>
-        <Button Name="btnFPInfo" Content="Path Info" Canvas.Left="437" Canvas.Top="206" Width="76" Padding="2" Click="btnFPInfo_Click"/>
+        <TextBox Name="txtInput" Height="55" Canvas.Left="79" TextWrapping="Wrap" Text="" Canvas.Top="66" Width="483" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial" FontSize="20" Padding="2"/>
+        <Button Name="btnStats" Content="Statistics" Canvas.Left="125" Canvas.Top="165" Width="91" Padding="3" Click="btnStats_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="29" FontFamily="Arial" Margin="0" Background="#FF3189D3" BorderBrush="{x:Null}" Foreground="White" />
+        <Button Name="btnNor" Content="Normalize" Canvas.Left="279" Canvas.Top="165" Width="91" Margin="0" Padding="3" Click="btnNor_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" Height="29" FontFamily="Arial" VerticalAlignment="Center" Background="#FF358DD6" BorderBrush="{x:Null}" Foreground="White"/>
+        <Button Name="btnFPInfo" Content="Path Info" Canvas.Left="437" Canvas.Top="165" Width="85" Padding="3" Click="btnFPInfo_Click" Height="29" FontFamily="Arial" Margin="0" HorizontalAlignment="Center" Background="#FF3189D3" BorderBrush="{x:Null}" Foreground="White"/>
     </Canvas>
 </Window>
